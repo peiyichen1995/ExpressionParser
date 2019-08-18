@@ -120,10 +120,10 @@ public:
         }
       }
 
-      std::cout << "Added " << _tokens[i]->content() << std::endl;
-      printRPN();
-      printOperators();
-      std::cout << "----------------------------\n";
+      // std::cout << "Added " << _tokens[i]->content() << std::endl;
+      // printRPN();
+      // printOperators();
+      // std::cout << "----------------------------\n";
     }
 
     if (!_operators.empty())

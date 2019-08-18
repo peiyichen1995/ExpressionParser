@@ -24,7 +24,7 @@ public:
         std::vector<Token *> RPN = _t.toPostFix();
         std::cout << "line " << i << ": \n";
         _t.printTokens();
-        _t.printRPN();
+        // _t.printRPN();
 
         // evaluate RPN
         for (unsigned int i = 0; i < RPN.size(); i++)
